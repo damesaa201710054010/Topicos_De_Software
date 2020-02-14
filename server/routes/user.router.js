@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const {saveData, updateData, deleteData, oneData, all} = require('../controllers/product.controller');
+const {saveData, updateData, deleteData, oneData, all} = require('../controllers/user.controller');
 
 router.route('/saveData')
       .post(saveData);
